@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:text="DC5 Tip Calculator" android:id="@+id/DC5TipTable"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="20dp"
+    >
+    
+    <TableRow android:gravity="center_horizontal">
+    <TextView android:text="@string/bill_amt_label" 
+			  android:textAppearance="?android:attr/textAppearanceLarge" 
+			  android:id="@+id/bill_amt_label" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content" 
+			  android:gravity="right|center_vertical">
+			  </TextView>
+    <EditText android:inputType="numberDecimal" 
+   			  android:layout_width="133dp" 
+   			  android:id="@+id/bill_amt_input" 
+   			  android:layout_height="wrap_content" 
+   			  android:text=""
+   			  android:gravity="right|center_vertical">
+   			  </EditText>
+    </TableRow>
+ 
+    <TableRow android:gravity="center_horizontal">
+    <TextView android:text="@string/tip_percent_label" 
+    		  android:textAppearance="?android:attr/textAppearanceLarge" 
+    		  android:id="@+id/tip_percent_label" 
+    		  android:layout_width="wrap_content" 
+    		  android:layout_height="wrap_content" 
+    		  android:gravity="right|center_vertical">
+    		  </TextView>
+    <EditText android:inputType="numberDecimal" 
+    		  android:layout_height="wrap_content" 
+    		  android:id="@+id/tip_percent_input" 
+    		  android:layout_width="129dp" 
+    		  android:text="@string/default_tip_amt"
+    		  android:gravity="right|center_vertical">
+    		  </EditText>
+    </TableRow>
+    
+    <TableRow android:gravity="center_horizontal">
+    <TextView android:text="@string/tip_amt_label" 
+    		  android:layout_width="wrap_content" 
+    		  android:textAppearance="?android:attr/textAppearanceLarge" 
+    		  android:id="@+id/tip_amt_label" android:layout_height="wrap_content" 
+    		  android:gravity="right|center_vertical">
+    		  </TextView>
+    <EditText android:id="@+id/tip_amt_display" 
+    					  android:text="@string/default_cost_amount" 
+    					  android:layout_height="wrap_content" 
+    					  android:layout_width="130dp"
+    					  android:gravity="right|center_vertical">
+				  		  </EditText>
+    </TableRow>
+    
+    <TableRow android:gravity="center_horizontal">
+    <TextView android:text="@string/total_bill_label" 
+    		  android:textAppearance="?android:attr/textAppearanceLarge" 
+    		  android:id="@+id/total_bill_label" 
+    		  android:layout_width="wrap_content" 
+    		  android:layout_height="wrap_content" 
+    		  android:gravity="right|center_vertical">
+    		  </TextView>
+ 	<EditText android:id="@+id/bill_amt_display" 
+    					  android:text="@string/default_cost_amount" 
+    					  android:layout_height="wrap_content" 
+    					  android:layout_width="130dp"
+    					  android:gravity="right|center_vertical">
+    					  </EditText>
+    </TableRow>
+    <TableRow android:gravity="center_horizontal">
+        <Button android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+       			android:id="@+id/go_button" 
+        		android:text="@string/go_button_label">
+        		</Button>
+        <Button android:id="@+id/reset_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:text="@string/btnReset"/>
+    </TableRow>
+    
+</TableLayout>

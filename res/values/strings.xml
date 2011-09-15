@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">DC5 Tip Calculator</string>
+    <string name="bill_amt_label">Bill Amount: $</string>
+    <string name="tip_percent_label">Tip Percentage:  </string>
+    <string name="tip_amt_label">Tip Amount: $</string>
+    <string name="total_bill_label">Total Bill: $</string>
+    <string name="default_cost_amount">0.00</string>
+    <string name="default_tip_amt">15</string>
+    <string name="go_button_label">Go</string>
+    <string name="btnReset">Reset</string>
+</resources>
